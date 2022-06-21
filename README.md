@@ -22,8 +22,7 @@ Note: You may need to run `go mod tidy` if your dependencies are not working
 * You will need to set the environment variable for go
   * `touch ~/.zshrc`
   * `open ~/.zshrc`
-  * add `export GOPATH=/Users/username/go
-  export PATH=$GOPATH/bin:$PATH` to the top and save
+  * add `export GOPATH=/Users/username/go` and `export PATH=$GOPATH/bin:$PATH` to the top, then save
   * run `source ~/.profile`
 * Install http framework [gin](https://github.com/gin-gonic/gin#installation) using `go install github.com/gin-gonic/gin@latest`
 * cd `/internal`
