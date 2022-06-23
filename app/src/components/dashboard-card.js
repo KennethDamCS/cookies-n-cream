@@ -1,4 +1,5 @@
 import CardBar from "../components/card-bar";
+import "./dashboard-card.css";
 function DashboardCard() {
     return (
       <div class="dashboard">

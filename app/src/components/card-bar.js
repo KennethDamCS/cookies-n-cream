@@ -1,3 +1,5 @@
+import "./card-bar.css";
+
 function CardBar() {
     return (
     <div class="cardbar">
@@ -11,7 +13,7 @@ function CardBar() {
         </div>
 
         <div class="right">
-          <button class="settings">
+          <button class="settingscardbar">
             settings
           </button>
         

@@ -1,0 +1,46 @@
+.cardbar {
+    width: auto;
+    height: 50px;
+    border-bottom: 4px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .usericon {
+    background: rgb(73, 73, 92);
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height:  48px;
+  }
+  
+  .socialicon {
+    background: rgb(53, 51, 153);
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height:  48px;
+  }
+  
+  .userlink {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 8px;
+    background: rgb(27, 197, 78);
+    color: white;
+    padding: 8px 24px;
+  }
