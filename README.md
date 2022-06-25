@@ -30,3 +30,12 @@ Note: You may need to run `go mod tidy` if your dependencies are not working
 * `go run sample-data.go`
 
 Note: You may need to run `go mod tidy` if your dependencies are not working
+
+# Database Postgres
+
+* Install Postgres however you like
+* Install PGAdmin for Database Interface
+* Change `postgres` user password to `postgres`
+* Run database build script
+  * `psql -U postgres -a -f internal/database/cookies.sql`
+* Check PGAdmin to ensure table is there 
