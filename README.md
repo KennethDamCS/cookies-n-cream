@@ -12,8 +12,9 @@
   * add `export PATH=$PATH:/usr/local/go/bin` to the top and save
   * run `source ~/.profile`
 * Install http framework [gin](https://github.com/gin-gonic/gin#installation) using `go get -u github.com/gin-gonic/gin`
+* Install `go get github.com/lib/pq`
 * cd `/internal`
-* `go run sample-data.go`
+* If it is first time: `go mod init github.com/cookies`
 
 Note: You may need to run `go mod tidy` if your dependencies are not working
 
