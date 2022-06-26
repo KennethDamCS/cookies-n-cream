@@ -9,7 +9,7 @@ func DBOptions() *pg.Options {
 		Addr:     "localhost:5432",
 		Database: "cookies",
 		User:     "postgres",
-		Password: "postgres",
+		Password: "password",
 	}
 }
 

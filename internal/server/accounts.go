@@ -12,7 +12,7 @@ type Account struct {
 	Password   string
 	CreatedAt  time.Time
 	ModifiedAt time.Time
-	Posts      []*Post
+	//Posts      []*Post
 }
 
 var Accounts []*Account

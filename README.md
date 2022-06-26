@@ -30,7 +30,6 @@ Note: You may need to run `go mod tidy` if your dependencies are not working
 * `go run sample-data.go`
 
 Note: You may need to run `go mod tidy` if your dependencies are not working
-
 # Database Postgres
 
 * Install Postgres however you like
@@ -39,3 +38,21 @@ Note: You may need to run `go mod tidy` if your dependencies are not working
 * Run database build script
   * `psql -U postgres -a -f internal/database/cookies.sql`
 * Check PGAdmin to ensure table is there 
+
+# Install Docker
+* Install via steps `Set up the repository` and `Install Docker Engine`
+  * [Linux](https://docs.docker.com/engine/install/ubuntu/)
+  * [MacOS](https://docs.docker.com/desktop/mac/install/)
+* Install docker compose if you only downloaded the engine
+  * Linux `sudo apt install docker-compose`
+  * MacOS `brew install docker-compose`
+
+# Database
+* `cd internal/database/`
+* `sudo docker-compose up`  (Add the -d flag if you want to detach process from terminal)
+* The connection for PGAdmin should be the same as if you ran postgres on your machine
+  * Server Name: cookies-db
+  * Host: localhost
+  * Port: 5432
+  * User: postgres
+  * Password: password
