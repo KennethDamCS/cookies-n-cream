@@ -1,7 +1,7 @@
 import './App.css';
 import DashboardPage from './pages/DashboardPage';
 import Footer from './components/Footer';
-import Header from './components/Header'
+import Header from './components/header';
 
 function App() {
   return (
