@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import DashboardPage from './pages/DashboardPage';
 import Footer from './components/Footer';

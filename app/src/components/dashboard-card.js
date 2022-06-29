@@ -1,3 +1,4 @@
+import React from 'react'
 import CardBar from "../components/card-bar";
 import "./dashboard-card.css";
 function DashboardCard() {

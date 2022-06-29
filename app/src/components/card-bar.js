@@ -1,3 +1,4 @@
+import React from 'react'
 import "./card-bar.css";
 
 function CardBar() {
