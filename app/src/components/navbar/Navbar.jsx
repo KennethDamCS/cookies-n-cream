@@ -27,8 +27,11 @@ function Navbar () {
         <IconButton aria-label="dashboard" color="inherit">
           <SettingsIcon />
         </IconButton>
-        <Button variant="outlined" size="small" color="inherit">
+        <Button variant="contained" size="medium" color="inherit">
           Login
+        </Button>
+        <Button variant="contained" size="medium" color="inherit">
+          Sign Up
         </Button>
       </Stack>
 
